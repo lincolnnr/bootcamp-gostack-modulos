@@ -32,7 +32,7 @@ interface Issue {
   };
 }
 
-const Dashboard: React.FC = () => {
+const Repository: React.FC = () => {
   const [repository, setRepository] = useState<Repository | null>(null);
   const [issues, setIssues] = useState<Issue[]>([]);
 
@@ -103,4 +103,4 @@ const Dashboard: React.FC = () => {
   );
 };
 
-export default Dashboard;
+export default Repository;
